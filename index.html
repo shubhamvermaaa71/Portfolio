@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Shubham Verma — BCA Portfolio</title>
+<title>Shubham Verma — Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
@@ -11,17 +11,13 @@
 </head>
 <body>
 
-<!-- Custom cursor -->
 <div id="cursor-dot"></div>
 <div id="cursor-ring"></div>
 
-<!-- Scroll progress -->
 <div id="progress-bar"></div>
 
-<!-- Background canvas -->
 <canvas id="bg-canvas"></canvas>
 
-<!-- NAV -->
 <nav>
   <a href="#hero" class="active">Home</a>
   <a href="#about-section">About</a>
@@ -30,18 +26,13 @@
   <a href="#contact-section">Contact</a>
 </nav>
 
-<!-- ═══════════ HERO ═══════════ -->
 <section id="hero">
   <div class="hero-badge"><span></span> Available for Internships &amp; Collabs</div>
 
   <div class="avatar-wrap">
     <div class="avatar-ring"></div>
     <div class="avatar-img">
-      <!-- Replace the src below with your actual photo path e.g. src="photo.jpg" -->
-      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="50" cy="38" r="18" fill="rgba(0,232,255,0.3)" stroke="rgba(0,232,255,0.5)" stroke-width="1.5"/>
-        <path d="M14 85c0-19.88 16.12-36 36-36s36 16.12 36 36" fill="rgba(0,232,255,0.15)" stroke="rgba(0,232,255,0.4)" stroke-width="1.5"/>
-      </svg>
+      <img src="image.jpg" alt="Shubham Verma" />
     </div>
   </div>
 
@@ -67,7 +58,6 @@
   </div>
 </section>
 
-<!-- ═══════════ ABOUT ═══════════ -->
 <div id="about-section">
   <div class="about-inner">
 
@@ -136,7 +126,6 @@
   </div>
 </div>
 
-<!-- ═══════════ SKILLS ═══════════ -->
 <div id="skills-section" style="position:relative;z-index:1;padding:clamp(80px,10vh,140px) clamp(24px,6vw,100px);">
   <div style="max-width:1200px;margin:0 auto;">
 
@@ -212,7 +201,6 @@
   </div>
 </div>
 
-<!-- ═══════════ PROJECTS ═══════════ -->
 <div id="projects-section" style="position:relative;z-index:1;padding:clamp(80px,10vh,140px) clamp(24px,6vw,100px) 0;">
   <div style="max-width:1200px;margin:0 auto;">
 
@@ -221,7 +209,6 @@
       <h2 class="section-title">What I've <em>Built</em></h2>
     </div>
 
-    <!-- Achievements row -->
     <div style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:40px;" class="reveal">
       <div style="display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 20px;">
         <span style="font-size:1.3rem;">🏆</span>
@@ -237,10 +224,6 @@
           <div style="font-size:.72rem;color:var(--muted);">TechnoQuiz Event · Top of the leaderboard</div>
         </div>
       </div>
-      <!-- TODO: Fill in your hackathon name and link below -->
-      <a href="#" class="contact-link" style="border-color:rgba(0,232,255,.2);" title="Fill in your hackathon link here">
-        <span class="cl-icon">⚡</span> Hackathon Participation <span style="font-size:.7rem;opacity:.5;">(link TBD)</span>
-      </a>
     </div>
 
     <div class="projects-grid" id="projects-grid">
@@ -253,7 +236,7 @@
         <div class="project-tech">
           <span>HTML</span><span>CSS</span><span>JavaScript</span>
         </div>
-        <a href="#" class="project-link">View Project →</a>
+        <a href="https://your-calculator-link.com" class="project-link">View Project →</a>
       </div>
 
       <div class="project-card" style="--p-color:#ffab40;">
@@ -264,25 +247,24 @@
         <div class="project-tech">
           <span>HTML</span><span>CSS</span><span>JavaScript</span>
         </div>
-        <a href="#" class="project-link">View Source →</a>
+        <a href="https://github.com/your-username/portfolio" class="project-link">View Source →</a>
       </div>
 
       <div class="project-card" style="--p-color:#ff5fa0;">
         <div class="project-accent"></div>
-        <div class="project-num">03 / Coming Soon</div>
-        <div class="project-title">Next Big Thing</div>
-        <div class="project-desc">Something exciting is in the works — a new project exploring the MERN stack or game development. Check back soon for updates as it takes shape!</div>
+        <div class="project-num">03 / Web App</div>
+        <div class="project-title">Aura Music Player Premium</div>
+        <div class="project-desc">A modern music player web app with playlist management, dark mode UI, and smooth animations. Built with vanilla JavaScript and styled CSS for an immersive listening experience.</div>
         <div class="project-tech">
-          <span>TBD</span>
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
         </div>
-        <a href="#" class="project-link">Stay Tuned →</a>
+        <a href="https://your-music-player-link.com" class="project-link">View Project →</a>
       </div>
 
     </div>
   </div>
 </div>
 
-<!-- ═══════════ CONTACT ═══════════ -->
 <div id="contact-section">
   <section id="contact">
     <div class="section-label" style="justify-content:center;">04 — Contact</div>
@@ -292,26 +274,25 @@
     <p class="contact-sub reveal">Whether you have a project idea, a collaboration in mind, or just want to talk about games and code at 2 AM — my inbox is always open.</p>
 
     <div class="contact-links reveal">
-      <a href="mailto:your@email.com" class="contact-link">
-        <span class="cl-icon">✉️</span> your@email.com
+      <a href="mailto:shubham@example.com" class="contact-link">
+        <span class="cl-icon">✉️</span> shubham@example.com
       </a>
-      <a href="#" class="contact-link">
+      <a href="https://linkedin.com/in/your-username" class="contact-link" target="_blank">
         <span class="cl-icon">💼</span> LinkedIn
       </a>
-      <a href="#" class="contact-link">
+      <a href="https://github.com/your-username" class="contact-link" target="_blank">
         <span class="cl-icon">🐙</span> GitHub
       </a>
-      <a href="#" class="contact-link">
-        <span class="cl-icon">🐦</span> Twitter
+      <a href="https://twitter.com/your-username" class="contact-link" target="_blank">
+        <span class="cl-icon">𝕏</span> Twitter
       </a>
     </div>
   </section>
 </div>
 
-<!-- FOOTER -->
 <footer>
   <div class="logo">Shubham Verma</div>
-  <div>Built with ❤️ &amp; too much ☕ · © 2025</div>
+  <div>Built with ❤️ &amp; too much ☕ · © 2026</div>
   <div>BCA 3rd Year</div>
 </footer>
 
