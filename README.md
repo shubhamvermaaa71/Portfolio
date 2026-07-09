@@ -21,13 +21,6 @@ A modern and fully responsive personal portfolio website built using HTML, CSS, 
 - CSS3
 - JavaScript
   
-## Future Improvements
-
-- Dark/Light Theme Toggle
-- Blog Section
-- Contact Form Integration
-- Project Filtering System
-
 ## Author
 
 Shubham Verma
