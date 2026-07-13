@@ -154,6 +154,7 @@ section {
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
   position: relative; z-index: 1;
+  transform: scale(0.5)
 }
 
 .hero-greeting {
