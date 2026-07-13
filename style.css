@@ -131,8 +131,8 @@ section {
 
 .avatar-wrap {
   position: relative;
-  width: clamp(130px,18vw,180px);
-  height: clamp(130px,18vw,180px);
+  /* width: clamp(130px,18vw,180px); */
+  height: clamp(270px,18vw,180px);
   margin: 0 auto;
   animation: fadeUp .9s .1s ease both;
 }
@@ -148,13 +148,13 @@ section {
   width: 100%; height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center;
+  object-position:  center;
   border: 3px solid var(--bg);
   background: linear-gradient(135deg, #0d2137 0%, #1a0d37 100%);
-  display: flex; align-items: center; justify-content: center;
+  display: flex;
   overflow: hidden;
   position: relative; z-index: 1;
-  transform: scale(0.5)
+  
 }
 
 .hero-greeting {
